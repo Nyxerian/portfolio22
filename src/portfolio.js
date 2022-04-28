@@ -21,7 +21,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Project 1 - Movie Watchlist',
     description:
       'Smooth Movie search, watchlist and favouriting app. Searches through movies via The Move Database (TMDB) and displays on cards. Clicking on the card title expands a modal with plot overview of the movie and the official rating of the movie displayed in stars.',
     stack: ['React','|', 'Styled-Components', '|', 'Bootstrap'],
@@ -29,21 +29,14 @@ const projects = [
     livePreview: 'https://nyxerian.github.io/movieapp/',
   },
   {
-    name: 'Project 2',
+    name: 'Numbers Guessing Game',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React.js', '', ''],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'First attempt at a simple Python program - Guess the correct number between 1 and 20.',
+    stack: ['Python',],
+    sourceCode: 'https://github.com/Nyxerian/Guessing-Games',
+    livePreview: 'https://replit.com/@DanniDaSilva/GuessingGame#main.py',
   },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+  
 ]
 
 const skills = [
